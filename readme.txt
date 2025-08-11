@@ -1,69 +1,23 @@
-Get PRO Here:
-https://templatesjungle.gumroad.com/l/waggy-pet-shop-ecommerce-html-website-template
+Waggy E-Commerce Store
 
-It is a free HTML CSS template by TemplatesJungle.com
-You can use this template as a starter template and start building as you require.
+A PHP-based e-commerce store with session-based cart functionality, PayPal integration, and order tracking.  
+Built using **PHP**, **MySQL (MariaDB)**, and **Bootstrap**.
 
-The code is consistent and can be easily maintained as we have followed a good coding standards. We want everyone to easily understand it and modify it according to their requirement. As the main goal of providing these templates is to give you something to work on before even starting.
+---
 
+Features
+- User login & session management
+- Product catalog display from MySQL database
+- Add to cart, update quantities, and remove items
+- Checkout with PayPal Sandbox (Legacy integration)
+- Order storage in MySQL database
+- Printable order receipt
 
-FREE FOR BOTH PERSONAL AND COMMERCIAL USE
+---
 
-This HTML Template is provided by TemplatesJungle.com and is free to use in both personal and commercial projects as long as you don't remove our credit link in the footer.
-
-However, you can remove the credit link by paying for No Attribution version of the template.
-
-
-RIGHTS
-
-You are allowed to use it in your personal projects and commercial projects.
-
-You can modify and sell it to your clients.
-
-
-PROHIBITIONS
-
-You cannot remove the credit link which links back to templatesjungle.com.
-
-You are not permitted to resell or redistribute (paid or free) as it is. 
-
-You cannot use it to build premium templates, themes or any other goods to be sold on marketplaces.
-
-If you want to share the free resource in your blog, you must point it to original TemplatesJungle.com resource page. 
-
-You cannot host the download file in your website.
-
-
-SUPPORT
-
-You can contact us to report any bugs and errors in the template. We will try and fix them immediately although it's a free resource.
-
-Feel free to let us know about what you want to see in the future downloads. We will definitely give it a thought while creating our next freebie.
-
-
-CREDITS & REFERENCES
-
-https://getbootstrap.com/
-
-Stock Photos
-https://unsplash.com/
-https://www.freepik.com/
-https://www.pexels.com/
-
-Fonts
-Google fonts
-https://fonts.google.com/
-
-Icons
-https://icomoon.io/
-
-JQuery Plugins
-
-Swiper Slider - https://swiperjs.com/
-Slick Slider - https://kenwheeler.github.io/slick/
-Chocolat.js – a Free Lightbox Plugin -http://chocolat.insipi.de/
-Magnific Lightbox - https://github.com/dimsemenov/Magnific-Popup
-
-Thanks for downloading from TemplatesJungle.com !
-
-
+Technologies Used
+- **Frontend:** HTML, CSS, Bootstrap
+- **Backend:** PHP (Procedural)
+- **Database:** MySQL / MariaDB
+- **Payment Gateway:** PayPal Sandbox (Legacy)
+- **Server:** XAMPP (Apache, PHP, MySQL)
