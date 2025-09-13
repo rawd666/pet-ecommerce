@@ -19,7 +19,7 @@
         $total += ($it['price'] * $it['qty']);
     }
 
-    $q = "insert into orders (orderTotal) values ('$total')";
+    $q = "insert into orders (orderTotal, userId) values ('$total', '{$_SESSION['user_id']}')";
     $result = mysqli_query($conn, $q);
 
     if(!$result) {

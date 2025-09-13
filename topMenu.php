@@ -92,7 +92,7 @@
                 <a href="index.php" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
-                <a href="index.php" class="nav-link">Others</a>
+                <a href="admin" class="nav-link">Admin</a>
               </li>
             </ul>
 

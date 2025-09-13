@@ -1,9 +1,21 @@
-<?php include 'header.php'; 
+<?php 
+    session_start();
+    if (isset($_SESSION['username'])) {
+        header('Location: user.php');
+        exit;
+    }
+
+    include 'header.php'; 
     include 'navbar.php'; 
-    include 'topMenu.php'; ?>
+    include 'topMenu.php'; 
+?>
 
 <main style="max-width: 400px; margin: 50px auto;">
     <h2 style="text-align:center; margin-bottom: 20px;">Login</h2>
+
+    <?php if(isset($_GET['error'])): ?>
+        <div style="margin:10px 0; color:red;"><?= htmlspecialchars($_GET['error']) ?></div>
+    <?php endif; ?>
 
     <form action="processLogin.php" method="post">
         <div style="margin-bottom: 15px;">
@@ -29,7 +41,7 @@
     </form>
 
     <p style="text-align:center; margin-top:15px;">
-        Don't have an account? <a href=#S>Sign up</a>
+        Don't have an account? <a href=signup.php>Sign up</a>
     </p>
 </main>
 
