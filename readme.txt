@@ -1,6 +1,6 @@
 Waggy E-Commerce Store
 
-A PHP-based e-commerce store with session-based cart functionality, PayPal integration, and order tracking.  
+A PHP-based e-commerce store with session-based cart functionality, PayPal integration, order tracking, and an admin dashboard with a sales forecast feature.  
 Built using **PHP**, **MySQL (MariaDB)**, and **Bootstrap**.
 
 ---
